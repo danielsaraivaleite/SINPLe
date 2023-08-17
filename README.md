@@ -2,9 +2,10 @@
 SINPLe (Simple Interpreted Programming Language): A object-oriented implementation of a computer language in Java.
 
 ## Introduction
-Syntax is similar to PHP scripting language.
+Syntax is similar to PHP scripting language. 
+**Usage**: 
 ```
-**Usage**: java -jar "sinple.jar" <filename>
+java -jar "sinple.jar" <filename>
 ```
 
 ## A quick overview example
