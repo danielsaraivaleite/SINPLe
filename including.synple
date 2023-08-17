@@ -1,0 +1,4 @@
+# Example of the include preprocessor function
+include("factorial.synple");
+
+println("factorial of 6 is " . factorial(6));
