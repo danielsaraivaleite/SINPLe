@@ -181,3 +181,24 @@ arrays are initialized on a 0-index fashion:
 so, a for statement can be used to loop through the elements: 
 apple strawberry pineapple
 ```
+
+## Working with functions
+**Input file: factorial.synple**
+```
+# Example of a function with recursion
+function factorial($n)
+{
+   if($n == 0  || $n == 1 ) 
+		return 1;
+   else 
+		return $n * factorial($n-1);
+}
+
+echoln factorial(4);
+```
+**Output**
+
+```
+24
+```
+
