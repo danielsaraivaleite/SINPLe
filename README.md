@@ -1,5 +1,5 @@
 # SINPLe
-SINPLe (Simple Interpreted Programming Language): A object-oriented implementation of a computer language in Java
+SINPLe (Simple Interpreted Programming Language): A object-oriented implementation of a computer language in Java.
 
 ## Introduction
 Syntax is similar to PHP scripting language.
@@ -201,4 +201,7 @@ echoln factorial(4);
 ```
 24
 ```
+
+## Final Notes:
+- This project does not have the intention to build a performatic and complete programming language. The main purpose is for learning reasons.
 
