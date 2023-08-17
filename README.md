@@ -3,6 +3,7 @@ SINPLe (Simple Interpreted Programming Language): A object-oriented implementati
 
 ## Introduction
 Syntax is similar to PHP scripting language. 
+
 **Usage**: 
 ```
 java -jar "sinple.jar" <filename>
