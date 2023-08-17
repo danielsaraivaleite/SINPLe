@@ -205,6 +205,23 @@ echoln factorial(4);
 24
 ```
 
+## The include preprocessor
+Sinple has a preprocessor with an include statement enabling it to run code from other files.
+
+**Input file: including.synple**
+```
+# Example of the include preprocessor function
+include("factorial.synple");
+println("factorial of 6 is " . factorial(6));
+```
+**Output**
+
+```
+24
+factorial of 6 is 720
+```
+
+
 ## Final Notes:
 - This project does not have the intention to build a performatic and complete programming language. The main purpose is for learning reasons.
 
