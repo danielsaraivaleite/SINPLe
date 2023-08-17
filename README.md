@@ -3,14 +3,14 @@ SINPLe (Simple Interpreted Programming Language): A object-oriented implementati
 
 ## Introduction
 Syntax is similar to PHP scripting language.
-'''
+```
 **Usage**: java -jar "sinple.jar" <filename>
-'''
+```
 
 ## A quick overview example
 
 **Input file: general_examples.synple**
-'''
+```
 /* 
     About Comments 
 */
@@ -128,12 +128,11 @@ for($i=0; $i<3;$i++)
 {
    echo $fruits[$i] . " ";
 }
-
-'''
+```
 
 **Output**
 
-'''
+```
 Single line comments starts with #
 
 Multiple lines comments are enclosed with /*   */
@@ -181,5 +180,4 @@ pineapple is a tasty fruit.
 arrays are initialized on a 0-index fashion:
 so, a for statement can be used to loop through the elements: 
 apple strawberry pineapple
-'''
-
+```
